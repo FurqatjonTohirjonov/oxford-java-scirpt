@@ -90,3 +90,12 @@
 //}
 
 //console.log(capitalize("webbrain academy")); 
+
+//function t(a, b) {
+//    if (a.length !== b.length) return false;
+//    for (let c of a) b = b.replace(c, '');
+//    return b.length === 0;
+//}
+
+//console.log(t("ABC", "BCA"));
+//console.log(t("ABC", "BCD"));
