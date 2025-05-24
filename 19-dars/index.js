@@ -26,7 +26,3 @@
 //let result = arr2.filter(obj => obj.status.toLowerCase().includes(search.toLowerCase()));
 
 //console.log(result);
-
-//                                  3-vazifa
-
-let 
