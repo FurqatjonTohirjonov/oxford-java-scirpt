@@ -32,15 +32,8 @@
 //readAction("va", people);
 //console.log(people);
 //======================================================================================================
-//let delAction = (id) => {
-//    people = people.filter((obj) => {
-//        if (obj.id !== id) return obj;
-//    });
-//}
-
-//delAction(4)
-
-//console.log(people);
+//let delAction = (id, id2) => people = people.filter((obj) => obj?.id !== id && obj?.id !== id2) return obj
+//console.log(delAction(4, 9));
 //======================================================================================================
 //let uppeople = (id, arr) => {
 //    people = arr.map((obj) => {
@@ -55,8 +48,9 @@
 
 //console.log(people);
 //======================================================================================================
-//let sortPeople = people.slice().sort((a, b) => {
+//let sortAction = people.slice().sort((a, b) => {
 //    return a.lastName.localeCompare(b.lastName);
 //});
 
-//console.log(sortPeople);
+//console.log(sortAction);
+//======================================================================================================
