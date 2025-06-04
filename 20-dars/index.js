@@ -10,7 +10,9 @@
 //    { id: 9, firstName: "Javlon", lastName: "Qurbonov", age: 24, status: "Frilanser" },
 //    { id: 10, firstName: "Shahnoza", lastName: "Ergasheva", age: 18, status: "O'quvchi" }
 //];
+
 //======================================================================================================
+
 //let uppeople = (id, arr) => {
 //    people = arr.map((obj) => {
 //        if (obj?.id === id) {
@@ -23,7 +25,9 @@
 //uppeople(5, people);
 
 //console.log(people);
+
 //======================================================================================================
+
 //function readAction(value,arr) {
 //    people = people.filter((obj) => {
 //        if(obj.lastName.includes(value)) return obj;
@@ -31,10 +35,14 @@
 //}
 //readAction("va", people);
 //console.log(people);
+
 //======================================================================================================
+
 //let delAction = (id, id2) => people = people.filter((obj) => obj?.id !== id && obj?.id !== id2) return obj
 //console.log(delAction(4, 9));
+
 //======================================================================================================
+
 //let uppeople = (id, arr) => {
 //    people = arr.map((obj) => {
 //        if (obj?.id === id) {
@@ -47,10 +55,13 @@
 //uppeople(7, people);
 
 //console.log(people);
+
 //======================================================================================================
-//let sortAction = people.slice().sort((a, b) => {
+
+//let sortAction = people.sort((a, b) => {
 //    return a.lastName.localeCompare(b.lastName);
 //});
 
 //console.log(sortAction);
+
 //======================================================================================================
