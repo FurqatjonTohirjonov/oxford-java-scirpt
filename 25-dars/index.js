@@ -1,0 +1,38 @@
+//let a = [1, 2, 3, 4, 5];
+//let b = [2, 4];
+
+//let result = a.filter(item => !b.includes(item));
+//console.log(result);
+
+//let arr = [5, 8, 6, 3, 4];
+
+//let juft = [];
+//let toq = [];
+//let count = 0;
+//let count2 = 0;
+//let newArr = [];
+//arr.forEach((value) => {
+//    value % 2 ? toq.push(value) : juft.push(value);
+//});
+
+//toq = toq.sort((a, b) => a - b);
+
+//arr.forEach((value, index) => {
+//    if (value % 2) {
+//        newArr.push(toq[count])
+//        count++;
+//    } else {
+//        newArr.push(juft[count2])
+//        count2++;
+//    }
+//})
+
+//console.log(newArr);
+
+//let arr = [1, 1, 2, 3, 4, 4, 5, 6, 6];
+//let newArr = arr.filter((value, index) => {
+//    if (arr.indexOf(value) === arr.lastIndexOf(value)) return value;
+//});
+
+//console.log(newArr);
+
