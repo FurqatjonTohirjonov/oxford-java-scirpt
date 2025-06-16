@@ -1,5 +1,3 @@
-//                                   2.setTimeout va setInterval
-
 //setTimeout(() => {
 //    console.log("salom");
 //}, 1000);
